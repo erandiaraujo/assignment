@@ -19,10 +19,8 @@ body {
 
 .container {
     max-width: 75rem;
-    /* 1200px */
     margin: 0 auto;
     padding: 0 1.25rem;
-    /* 20px */
 }
 
 header {
@@ -57,7 +55,6 @@ h1 {
     color: #FFFFFF;
     font-weight: 600;
     letter-spacing: 0.03125rem;
-    /* 0.5px */
 }
 
 h2,
@@ -83,7 +80,6 @@ main {
 .facts-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
-    /* 300px */
     gap: 2rem;
     margin: 2rem 0;
 }
@@ -92,9 +88,7 @@ main {
     background: linear-gradient(145deg, #FFFFFF, #FFF5E6);
     padding: 1.5rem;
     border-radius: 0.625rem;
-    /* 10px */
     box-shadow: 0 0.25rem 0.9375rem rgba(198, 142, 71, 0.1);
-    /* 4px 15px */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
